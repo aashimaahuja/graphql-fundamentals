@@ -1,0 +1,12 @@
+type Query {
+  greeting: String
+  users: [User]
+  user(id: ID!): User
+}
+
+type User {
+  id: ID!
+  name: String!
+  age: Int
+  friends: [User!]!
+}
