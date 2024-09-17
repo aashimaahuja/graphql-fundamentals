@@ -3,7 +3,7 @@
 1. Install packages
 
 ```shell
-npm i graphql @apollo/server
+npm i nodemon graphql @apollo/server
 ```
 
 2. Define schemas
